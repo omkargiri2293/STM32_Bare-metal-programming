@@ -1,15 +1,17 @@
-# STM32CubeIDE / Eclipse settings
-.settings/
+# STM32CubeIDE workspace metadata
 .metadata/
+
+# Build output folders in each project
+**/Debug/
+**/Release/
+
+# STM32CubeIDE / Eclipse project files
+**/.settings/
+*.launch
 *.project
 *.cproject
-*.launch
 
-# Build output folders
-Debug/
-Release/
-
-# Temporary and backup files
+# Binary and compiled files
 *.o
 *.elf
 *.bin
