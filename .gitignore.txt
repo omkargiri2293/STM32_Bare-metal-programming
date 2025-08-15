@@ -1,0 +1,27 @@
+# STM32CubeIDE / Eclipse settings
+.settings/
+.metadata/
+*.project
+*.cproject
+*.launch
+
+# Build output folders
+Debug/
+Release/
+
+# Temporary and backup files
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.log
+*.tmp
+*.bak
+*.swp
+*.dep
+
+# OS-specific files
+.DS_Store
+Thumbs.db
